@@ -141,3 +141,56 @@ main section{
     margin-top: 130px;
     margin-bottom: 130px;
 }
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-description-font{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.experience-tittle-font{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.resume hr{
+    margin: 30px 0;
+}
+
+.resume-download-button{
+    margin-top: 50px;
+}
+
+.section-tittle{
+    margin-top: 130px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+/* footer styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-coloum{
+    width: 50%;
+}
+
+footer input[type = "text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+}
+
